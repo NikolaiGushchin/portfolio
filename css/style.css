@@ -1,0 +1,23 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 50px 0px 0px 0px;
+}
+.header__link:not(:last-child) {
+  margin: 0px 20px 0px 0px;
+}
+.header__link-icon {
+  width: 25px;
+  height: 25px;
+}
+body {
+  background-color: black;
+}
+.container {
+  max-width: 1200px;
+  margin: auto;
+}
+.link {
+  text-decoration: none;
+}
