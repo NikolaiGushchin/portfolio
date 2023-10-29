@@ -1,6 +1,7 @@
 body {
   font-family: "Roboto", sans-serif;
   background: #1d1d29;
+  color: #fff;
 }
 .container {
   max-width: 936px;
@@ -10,7 +11,6 @@ body {
   text-decoration: none;
 }
 .name-section {
-  color: #fff;
   font-size: 36px;
   font-weight: 700;
 }
@@ -29,7 +29,7 @@ body {
 }
 .promo {
   display: flex;
-  padding: 105px 0px 190px 0px;
+  padding: 201px 0px 201px 0px;
   justify-content: space-between;
   align-items: center;
 }
@@ -44,13 +44,11 @@ body {
   margin: 0px 0px 15px 0px;
 }
 .promo__title {
-  color: #fff;
   font-size: 50px;
   font-weight: 700;
   margin: 0px 0px 20px 0px;
 }
 .promo__text {
-  color: #fff;
   font-size: 16px;
   font-weight: 400;
   line-height: 28px;
@@ -63,6 +61,7 @@ body {
   box-shadow: 0px 4px 0px 0px #b68500;
   border: none;
   cursor: pointer;
+  text-decoration: none;
   color: #2e2e30;
   font-size: 12px;
   font-weight: 700;
@@ -90,15 +89,83 @@ body {
   margin: 0px 0px 63px 0px;
 }
 .working__card-title {
-  color: #fff;
   font-size: 24px;
   font-weight: 700;
   line-height: 28px;
   margin: 22px 0px 16px 0px;
 }
 .working__card-text {
-  color: #fff;
   font-size: 16px;
   font-weight: 400;
   line-height: 28px;
+}
+.last-project {
+  padding: 135px 0px 135px 0px;
+}
+.last-project__slider {
+  margin: 84px 0px 0px 0px;
+}
+.last-project__slide {
+  display: flex;
+  align-items: center;
+}
+.last-project__image {
+  border-radius: 6px;
+  align-self: self-start;
+}
+.last-project__content {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0px 0px 0px 65px;
+}
+.last-project__slide-title {
+  font-size: 24px;
+  font-weight: 700;
+  flex-basis: 100%;
+}
+.last-project__time {
+  display: flex;
+  align-items: flex-start;
+  flex-basis: 35%;
+  margin: 46px 0px 0px 0px;
+}
+.last-project_cost {
+  display: flex;
+  align-items: flex-start;
+  margin: 46px 0px 0px 0px;
+}
+.last-project__feedback {
+  display: flex;
+  align-items: flex-start;
+  margin: 46px 0px 0px 0px;
+}
+.last-project__description {
+  margin: 0px 0px 0px 16px;
+}
+.last-project__subtitle {
+  font-size: 18px;
+  font-weight: 700;
+}
+.last-project__paragraph {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 150%;
+  margin: 8px 0px 0px 0px;
+}
+.last-project__pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 44px 0px 0px 0px;
+}
+.last-project__bullet {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  border: 2px solid #ffbb01;
+  margin: 0px 5px 0px 5px;
+}
+.last-project__bullet_active {
+  background: #ffbb01;
 }
